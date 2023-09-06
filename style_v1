@@ -1,0 +1,93 @@
+html{
+background-color: #D3D3D3;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.wrapper{
+height: auto;
+display: grid;
+grid-template-rows: 80px 1600px 250px;
+grid-template-columns: 2fr 2fr 1fr;
+grid-gap: 2px;
+margin: -8px;
+}
+
+
+.content{
+background-color: #fff;  /*blue*/
+padding-left: 60px;
+padding-right: 50px;
+grid-row: 3;
+grid-column: 1/4;
+
+}
+
+/*
+.content1{
+font-size: 24px;
+grid-row: 3;
+grid-column: 1/4;
+background-color: purple;
+}
+
+
+*/
+.sidebar{
+padding-left: 8px;
+padding-right: 10px;
+background-color: #2956a7;
+grid-column: 3;
+grid-row: 3;
+font-family: Myriad Pro;
+}
+
+
+
+.content1{
+}
+
+.content2{
+}
+
+.content3{
+}
+
+
+.footer{
+background-color: #ebebeb; /*grey*/
+grid-column: 1/4;
+grid-row: 4;
+font-size: 16px;
+padding: 10px;
+padding-left: 60px;
+padding-right: 60px;
+font-family: 'Raleway', sans-serif;
+color: white;
+}
+
+
+.soc1{
+
+}
+
+.soc2{
+}
+
+.soc3{
+}
+
+
+p{
+font-family: 'Myriad Pro', sans-serif;
+color: black;
+font-size: 16px;
+line-height: 20px;
+}
+
+h1{
+padding-top: 20px;
+text-decoration: underline;
+color: black;
+font-size: 20px;
+}
